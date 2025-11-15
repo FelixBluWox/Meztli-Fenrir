@@ -1,4 +1,10 @@
 environ.json
 secret.env
+bot.py
+test
+
+*temp*
+*test*
+
 *.env
 *.log
