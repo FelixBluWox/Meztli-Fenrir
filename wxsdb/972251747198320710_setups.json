@@ -1,0 +1,16 @@
+{
+    "chs": {},
+    "documents": {},
+    "modmins": {},
+    "setups": {
+        "Fenrir": {
+            "config": {
+                "leveling": false,
+                "ttvnotif": false
+            },
+            "guild_id": 972251747198320710,
+            "prefix": "f."
+        }
+    },
+    "streamers": {}
+}

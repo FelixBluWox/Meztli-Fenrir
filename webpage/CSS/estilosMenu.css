@@ -1,0 +1,117 @@
+
+
+nav {
+    
+}
+
+nav ul{
+	/*quitar las viñetas a los ul = a las opciones*/
+	list-style: none;
+	/*quitar la sangria del lado izquierdo*/
+	padding: 0;
+    padding-left: 15%;
+    font-family: "quicksand";
+    font-style: bold;
+    font-size: 16;
+}
+
+nav li{
+	/*alto de las opciones*/
+	line-height: 3em;
+	/*cambiar su posicion porque tienen muchos hijos*/
+	position: relative;
+}
+
+nav li ul{
+	/*cambiar la posicion para que no esten adentro del 
+	contenedor de su padre*/
+	position: absolute;
+}
+
+
+
+nav input{
+    border: none;
+    background: none;
+    height: 2em;
+    font-family: "quicksand";
+    font-style: bold;
+    font-size: 22px;
+	/*quitar el subrayado*/
+	text-decoration: none;
+	/*color al link*/
+	color: #153979;
+	/*ocupar todo el alto*/
+	display: block;
+	/*distancia vertical*/
+	padding: 0 2.5em;
+
+}
+
+nav input:hover{
+	background:#0c9ef8;
+    color: white;
+}
+
+/*ocultar los subniveles para que no me distraigan
+nav ul ul ul{
+	display: none;
+}*/
+
+/*Ocultar los subniveles*/
+nav li ul{
+	display: none;
+}
+
+/*mostrar los submenus al pasar el mouse por encima*/
+nav li:hover > ul{ /*solo la linea directa, cuando pases por el li solo mostraras el ul de este li todo gracias a >*/
+	display: block;
+}
+
+/*PRIMER NIVEL*/
+nav > ul{
+	background-color: #ff7e23;
+	/*modificar para que se vea el color*/
+	display:table;
+	width: 85%
+    
+}
+
+#other > ul{
+	background-color: #ea3448;
+	/*modificar para que se vea el color*/
+	display:table;
+	width: 85%
+}
+
+nav > ul > li{
+	/*cambiar la posicion*/
+	float: left;
+    /*para que se vea el color modificar el display de los elementos
+    arriba de la linea 25*/
+}
+
+
+/*---SEGUNDO NIVEL---*/
+nav li li{
+	/*poner el color de fondo del primer nivel*/
+	background: #F0F0F0;
+	/*ajustar el anocho*/
+	width: 200px;
+}
+
+nav> ul>li>ul{
+	/*acomodando al segundo nivel*/
+	top: 100%
+}
+
+/*---TERCER NIVEL---*/
+/* HACER QUE SE VEA EL TERCER NIVEL, tengo que modificar mas arriba*/
+
+nav ul ul ul{
+	/*acomodarlos a la isquierda, floten*/
+	left: 100%;
+	/*dejar un espacio superior para que se vea ese hijo*/
+	top:0;
+}
+

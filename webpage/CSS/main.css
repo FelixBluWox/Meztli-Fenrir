@@ -1,0 +1,248 @@
+@font-face {
+    font-family: quicksand;
+    src: url(../TXT/Quicksand_Bold.otf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "quicksand";
+	background-image: url(../IMG/fenrirbg.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: 100%;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	font-family: "quicksand";
+	padding-left: 70px;
+	padding-top: 5px;
+	height: 50px;
+	background:  #0f0c21 ;
+    color: #fefefe;
+	border-bottom: #b71046;
+	border-bottom-width: 5px;
+	border-bottom-style: inset;
+}
+
+/* The side navigation menu */
+#sidebar {
+	background-color: #f1f1f1;
+
+	border-right: #b71046;
+	border-right-width: 5px;
+	border-right-style: inset;
+	margin: 0;
+	padding-left: 0;
+	padding-top: 60px;
+	width: 200px;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+  
+/* Sidebar links */
+#sidebar a {
+	display: block;
+	color: black;
+	padding: 16px;
+	text-decoration: none;
+}
+  
+/* Active/current link */
+#sidebar a.active {
+	background-color: #04AA6D;
+	color: white;
+}
+  
+/* Links on mouse-over */
+#sidebar a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+	#sidebar {
+	  	width: 100%;
+	  	height: auto;
+		position: relative;
+	}
+	#sidebar a {float: left;}
+	#content {margin-left: 0;}
+}
+  
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+	#sidebar a {
+		text-align: center;
+		float: none;
+	}
+}
+
+#logo{
+	position: absolute; 
+	z-index:1; 
+	top:0;
+	height: 90px;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+#maintext{
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+h1{
+	font-family: "quicksand";
+    font-size: 2.3em;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+h2{
+    font-size: 1.5em;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+#mainspace{
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-bottom: 5%;
+	margin-left: 200px;
+    color: Black;
+    background: #fefefe;
+}
+
+nav > ul > li{
+	float: left;
+}
+
+#menu ul{
+	list-style: none;
+	padding: 0;
+    padding-left: 16%;
+    font-family: "quicksand";
+    font-style: bold;
+    font-size: 12;
+	background-color: #b71046;
+	display:table;
+	width: 85%
+}
+
+#menu input{
+    border: none;
+    background: none;
+    height: 2em;
+    font-family: "quicksand";
+    font-style: bold;
+    font-size: 18px;
+	text-decoration: none;
+	color: #fefefe;
+	display: block;
+	padding: 0 1em;
+
+}
+
+#menu input:hover{
+	background:#306fd6;
+    color: #fefefe;
+}
+
+#menu li{
+	/*alto de las opciones*/
+	line-height: 3em;
+	/*cambiar su posicion porque tienen muchos hijos*/
+	position: relative;
+}
+
+#menu li{
+	/*alto de las opciones*/
+	line-height: 3em;
+	/*cambiar su posicion porque tienen muchos hijos*/
+	position: relative;
+}
+
+#menu > ul{
+	background-color: #b71046;
+	/*modificar para que se vea el color*/
+	display:table;
+	width: 85%
+    
+}
+
+#other > ul{
+	background-color: #b71046;
+	/*modificar para que se vea el color*/
+	display:table;
+	width: 85%
+}
+
+#textblock {
+	padding-left: 10%;
+	padding-right: 10%;
+	vertical-align: top;
+	font-family: "quicksand";
+	font-size: larger;
+	font-weight: bold;
+	text-align: justify;
+}
+
+#textblock h1 {
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+
+#textblock h2 {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#textblock div {
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+#textblock img {
+	max-width: 300px;
+	height: auto;
+}
+
+#foot {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	height: 70px;
+	background: #0f0c21;
+	border-radius: 1em;
+	color: #fefefe;
+}
+
+#foot div {
+	margin: 0 auto;
+}
+
+#foot div table {
+	margin: 0 auto;
+}
+
+#futimg{
+    height: 60px;
+	margin: 5px;
+    margin-left: 20;
+
+}
+

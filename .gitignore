@@ -1,0 +1,4 @@
+environ.json
+secret.env
+*.env
+*.log

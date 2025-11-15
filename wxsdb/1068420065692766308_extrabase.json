@@ -1,0 +1,76 @@
+{
+    "cities": {
+        "CPTL": "La Capital",
+        "MTPL": "Metropolis",
+        "SATL": "Seatle",
+        "SNFR": "San Fierro"
+    },
+    "citydes": {
+        "CPTL": "El centro economico y politico del pais, con una rapida expansion pero tambien una gran competencia",
+        "MTPL": "Un terreno quasi perfeto, lleno de playas y recursos, una vez codiciada por los inversionistas es la ciudad mas lejana a la capital",
+        "SATL": "La ciudad mas cercana a la capital, con un fuerte impulso economico gracias a la inversion, vivira a las expectativas?",
+        "SNFR": "Una encantadora villa a las afueras de la capital, apenas en su infancia, que potencial escondera este diamante en bruto"
+    },
+    "cityimg": {
+        "CPTL": "https://media.discordapp.net/attachments/1068739926503465000/1070361946131542047/Minecraft__1.19.2_-_Multiplayer_3rd-party_Server_30_01_2023_02_34_17_a._m..png?width=801&height=452",
+        "MTPL": "https://media.discordapp.net/attachments/1068739926503465000/1070361945737265213/Minecraft__1.19.2_-_Multiplayer_3rd-party_Server_01_02_2023_07_37_35_a._m..png?width=801&height=452",
+        "SATL": "https://media.discordapp.net/attachments/1068739926503465000/1070361944969719998/Minecraft__1.19.2_-_Multiplayer_3rd-party_Server_01_02_2023_07_36_04_a._m..png?width=801&height=452",
+        "SNFR": "https://media.discordapp.net/attachments/1068739926503465000/1070361945389146112/Minecraft__1.19.2_-_Multiplayer_3rd-party_Server_01_02_2023_07_38_12_a._m..png?width=801&height=452"
+    },
+    "defaultticket": 7000,
+    "defultbantime": "48h",
+    "players": {
+        "APKx_Dynamite": 393144304027041804,
+        "FelixBluWox": 312807184927031306,
+        "GabiGamer517": 702918483100434542,
+        "Gaborg06": 486915605794914315,
+        "Isranker": 538101171370459146,
+        "XElCompiX": 154368785342529537,
+        "YeYo99": 479903658104979456
+    },
+    "professions": {
+        "ALCLDE": "Alcalde",
+        "ARQTCT": "Arquitecto",
+        "CHEMST": "Quimico",
+        "CNSEJL": "Consejal",
+        "CPDOFF": "Oficial de policia",
+        "CPDPOL": "Policia",
+        "CPOFFC": "Jefe de policia",
+        "DESMPL": "Ninguna",
+        "GENRAL": "General",
+        "INGRED": "Ing. en Redstone",
+        "INTDES": "Diseñador de Interiores",
+        "LAWYER": "Abogado",
+        "PRESID": "Presidente",
+        "PROFSR": "Profesor",
+        "SECRET": "Secretario",
+        "SUBSEC": "Sub Secretario"
+    },
+    "ranking": [
+        "312807184927031306",
+        "996993682815332372",
+        "925400683195281438",
+        "837145538528673853",
+        "715383852096290828",
+        "729569400382029886",
+        "702918483100434542",
+        "557628352828014614",
+        "547592630440034315",
+        "544346284862210069",
+        "486915605794914315",
+        "479903658104979456",
+        "393144304027041804",
+        "444978355264290846",
+        "377111746583986177",
+        "276060004262477825",
+        "235148962103951360",
+        "154368785342529537"
+    ],
+    "skins": {
+        "FelixBluWox": "ewogICJ0aW1lc3RhbXAiIDogMTY3NDY5MzIzNDk0MiwKICAicHJvZmlsZUlkIiA6ICI1NDZkZDMxODc5YTA0YjNmYThmMTEyOTg1OThmNzMzYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGZWxpeEJsdVdveCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lYWI3NGVhYWQ3OGUzZmUwY2JhODNlNmU4NTMwMjVmMDY2OGRmMmMwNTY3YWFlNjE5ZjMyYjk2NmRjMmMzOTViIgogICAgfQogIH0KfQ==",
+        "Gaborg06": "ewogICJ0aW1lc3RhbXAiIDogMTY3NzIxMjIyMTg4MywKICAicHJvZmlsZUlkIiA6ICJkNTQxNjY3Y2I0ZTQ0YWUzODUxYmVjYzQ2M2RlMTlhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYWJvcmcwNiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82YjZhOWEwMjkzMDdhYzgxNTNiZGE5ODE4MTkzMWQ0ZWUzMTNmN2NlMWQzZTkxYjUxMmYzZTI4ZDBjN2FmNmFiIgogICAgfQogIH0KfQ==",
+        "Isranker": "ewogICJ0aW1lc3RhbXAiIDogMTY3NjUyMDE1MjY5MywKICAicHJvZmlsZUlkIiA6ICI1ZTM5NWU2NzFlN2Y0OTJlYmExYTZlYmI2ZThlOWRjNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJJc3JhbmtlciIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZjE3Y2M5NDdjMzIyODgyOTQ0MmIxMGE4ZThlZjE5NWQ5ZGFkODNhODkwM2I2NzgyY2ZhODBkY2IzOWRmZjE2IgogICAgfQogIH0KfQ==",
+        "XElCompiX": "ewogICJ0aW1lc3RhbXAiIDogMTY3NjUxNjAzMTA1NCwKICAicHJvZmlsZUlkIiA6ICI4MTEzNGNhMzAwMTY0NmI1ODYzMWExNTg5OTExNjgxMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJYRWxDb21waVgiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE0YWY3MTg0NTVkNGFhYjUyOGU3YTYxZjg2ZmEyNWU2YTM2OWQxNzY4ZGNiMTNmN2RmMzE5YTcxM2ViODEwYiIKICAgIH0KICB9Cn0=",
+        "YeYo99": "ewogICJ0aW1lc3RhbXAiIDogMTY3NjUxNjMzOTc5NCwKICAicHJvZmlsZUlkIiA6ICIzMGU0YzZlOTVmMWQ0MjNjOTgzNTRiYzU5NTI3NTM1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZVlvOTkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA3OWU4MmUxMDhmMzdiNzE0ZDUwZDU3MjdlNjgyMTQzMTZhMGU3OWE0MjQyMTNhNTJjODZhMjI2ZjUwNjllIgogICAgfQogIH0KfQ=="
+    }
+}

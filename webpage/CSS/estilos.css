@@ -1,0 +1,139 @@
+/*selector universal quita los espacios*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "quicksand";
+    background-image: url("https://i.postimg.cc/DyjzKLYg/webglfondo.png");
+    background-size: 100%;
+}
+
+/*Maquetar es el contenedor*/
+#contenedor{
+	/*medidas absolutas*/
+	width: 100%;
+	height: 100%;
+	/*color e fondo para ver el tamaño del contenedor*/
+
+    
+}
+
+/*Definir la caracteristicas del header*/
+#header{
+	/*alto*/
+	height: 2;
+	/*color de fondo*/
+	background:  #2139cf ;
+    color: white;
+
+}
+
+/*definir las caracteristicas del logo*/
+#logo{
+	height: 200px;
+	/*margen o separacion*/
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+#maintext{
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+#fourzeroh{
+    padding: 2em;
+    color: #153979;
+}
+
+#fourzerotext{
+    font-size: 3.2em;
+    padding-left: 20px; 
+    
+}
+
+#botinfo{
+    font-size: 2em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    color: #153979;    
+}
+#botimg{
+    height: 250px;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+#bottbl{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+h1{
+    font-size: 1.6em;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+h2{
+    font-size: 0.8em;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+h3{
+    font-size: 0.6em;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+
+
+#mainspace{
+    width: 80%;
+    height: 1000px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    background: white;
+}
+
+/*centar lo de valle de mexico*/
+header table h1{
+	text-align: left;
+}
+
+/*ajustar propiedades de section*/
+#contenido{
+	height: 70%;
+	background: green;
+
+}
+
+#wipimg{
+    width: 60%;
+    padding-left: 20%
+}
+
+/*caracteristicas dle foot*/
+#foot{
+    align: bottom;
+	height: 64px;
+	background: #2139cf;
+	text-align: center; 
+	margin-top: 2px;
+	border-radius: 1em;
+	color: white;
+}
+
+#txtfut{
+    padding-left: 20px
+}
+
+#futimg{
+    height: 60px;
+	/*margen o separacion*/
+	margin: 2px;
+
+}

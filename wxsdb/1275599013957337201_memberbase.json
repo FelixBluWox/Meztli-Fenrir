@@ -1,0 +1,983 @@
+{
+    "1002411854498377798": {
+        "extra": {},
+        "level": 1,
+        "number": 83,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1023749755555303554": {
+        "extra": {},
+        "level": 1,
+        "number": 84,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1045788256081559642": {
+        "extra": {},
+        "level": 1,
+        "number": 10,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1079119228138963055": {
+        "extra": {},
+        "level": 1,
+        "number": 31,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1086111433978298488": {
+        "extra": {},
+        "level": 1,
+        "number": 11,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1118714842673594471": {
+        "extra": {},
+        "level": 1,
+        "number": 63,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1143378550037151774": {
+        "extra": {},
+        "level": 1,
+        "number": 81,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1215482771263459328": {
+        "extra": {},
+        "level": 1,
+        "number": 75,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1227432340016332822": {
+        "extra": {},
+        "level": 1,
+        "number": 45,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1282895118818344994": {
+        "extra": {},
+        "level": 1,
+        "number": 27,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1313202698711076876": {
+        "extra": {},
+        "level": 1,
+        "number": 51,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1368064495011762176": {
+        "extra": {},
+        "level": 1,
+        "number": 74,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "1404992341802225695": {
+        "extra": {},
+        "level": 1,
+        "number": 3,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "209798710056452097": {
+        "extra": {},
+        "level": 1,
+        "number": 39,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "214896640434110465": {
+        "extra": {},
+        "level": 1,
+        "number": 50,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "235148962103951360": {
+        "extra": {},
+        "level": 1,
+        "number": 12,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "236691492297506827": {
+        "extra": {},
+        "level": 1,
+        "number": 2,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "254444552100773888": {
+        "extra": {},
+        "level": 1,
+        "number": 30,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "267110079713509398": {
+        "extra": {},
+        "level": 1,
+        "number": 5,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "276060004262477825": {
+        "extra": {},
+        "level": 1,
+        "number": 76,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "284457841576640522": {
+        "extra": {},
+        "level": 1,
+        "number": 80,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "299996529429708809": {
+        "extra": {},
+        "level": 1,
+        "number": 51,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "303347345762811906": {
+        "extra": {},
+        "level": 1,
+        "number": 61,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "312807184927031306": {
+        "extra": {},
+        "level": 1,
+        "number": 15,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "316640940901138433": {
+        "extra": {},
+        "level": 1,
+        "number": 20,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "317059373316964356": {
+        "extra": {},
+        "level": 1,
+        "number": 68,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "323096086988324864": {
+        "extra": {},
+        "level": 1,
+        "number": 59,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "323912551140294656": {
+        "extra": {},
+        "level": 1,
+        "number": 0,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "324673684201799691": {
+        "extra": {},
+        "level": 1,
+        "number": 54,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "327298856893284352": {
+        "extra": {},
+        "level": 1,
+        "number": 14,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "338485128525250570": {
+        "extra": {},
+        "level": 1,
+        "number": 94,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "346063486389977092": {
+        "extra": {},
+        "level": 1,
+        "number": 88,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "366818700067864588": {
+        "extra": {},
+        "level": 1,
+        "number": 58,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "375805687529209857": {
+        "extra": {},
+        "level": 1,
+        "number": 7,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "384013446951469056": {
+        "extra": {},
+        "level": 1,
+        "number": 40,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "390960392081506326": {
+        "extra": {},
+        "level": 1,
+        "number": 71,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "398572250317586434": {
+        "extra": {},
+        "level": 1,
+        "number": 70,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "402528814548254720": {
+        "extra": {},
+        "level": 1,
+        "number": 65,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "411916947773587456": {
+        "extra": {},
+        "level": 1,
+        "number": 38,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "421067208500838414": {
+        "extra": {},
+        "level": 1,
+        "number": 28,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "423951154372935701": {
+        "extra": {},
+        "level": 1,
+        "number": 47,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "426554947702620181": {
+        "extra": {},
+        "level": 1,
+        "number": 26,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "428384858713227273": {
+        "extra": {},
+        "level": 1,
+        "number": 87,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "429098706349064203": {
+        "extra": {},
+        "level": 1,
+        "number": 42,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "438128847544778764": {
+        "extra": {},
+        "level": 1,
+        "number": 62,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "440897354284007435": {
+        "extra": {},
+        "level": 1,
+        "number": 19,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "451162576470933505": {
+        "extra": {},
+        "level": 1,
+        "number": 86,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "456620125559324673": {
+        "extra": {},
+        "level": 1,
+        "number": 6,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "466712296719253544": {
+        "extra": {},
+        "level": 1,
+        "number": 46,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "475470165845475338": {
+        "extra": {},
+        "level": 1,
+        "number": 65,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "493851479346642944": {
+        "extra": {},
+        "level": 1,
+        "number": 90,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "499407654972686367": {
+        "extra": {},
+        "level": 1,
+        "number": 34,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "513124234503913496": {
+        "extra": {},
+        "level": 1,
+        "number": 34,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "537458936312496138": {
+        "extra": {},
+        "level": 1,
+        "number": 29,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "546117774070644756": {
+        "extra": {},
+        "level": 1,
+        "number": 77,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "546517403966636034": {
+        "extra": {},
+        "level": 1,
+        "number": 16,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "551945728168296480": {
+        "extra": {},
+        "level": 1,
+        "number": 8,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "563822437498880010": {
+        "extra": {},
+        "level": 1,
+        "number": 29,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "563867322503266314": {
+        "extra": {},
+        "level": 1,
+        "number": 45,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "568163729754030181": {
+        "extra": {},
+        "level": 1,
+        "number": 43,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "572172614215139341": {
+        "extra": {},
+        "level": 1,
+        "number": 64,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "575489225693069323": {
+        "extra": {},
+        "level": 1,
+        "number": 21,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "575551472876519425": {
+        "extra": {},
+        "level": 1,
+        "number": 73,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "579868363589943298": {
+        "extra": {},
+        "level": 1,
+        "number": 82,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "590612713135144960": {
+        "extra": {},
+        "level": 1,
+        "number": 32,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "593257121567735808": {
+        "extra": {},
+        "level": 1,
+        "number": 67,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "604429953798373388": {
+        "extra": {},
+        "level": 1,
+        "number": 89,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "625478215020052500": {
+        "extra": {},
+        "level": 1,
+        "number": 78,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "640416583336067082": {
+        "extra": {},
+        "level": 1,
+        "number": 92,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "648394115540844552": {
+        "extra": {},
+        "level": 1,
+        "number": 56,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "649059737635258389": {
+        "extra": {},
+        "level": 1,
+        "number": 41,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "663213251424944128": {
+        "extra": {},
+        "level": 1,
+        "number": 22,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "663542054252707846": {
+        "extra": {},
+        "level": 1,
+        "number": 35,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "665074824648982528": {
+        "extra": {},
+        "level": 1,
+        "number": 93,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "669737347880976385": {
+        "extra": {},
+        "level": 1,
+        "number": 37,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "685921325793280032": {
+        "extra": {},
+        "level": 1,
+        "number": 85,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "694637288876933190": {
+        "extra": {},
+        "level": 1,
+        "number": 25,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "698689290066198561": {
+        "extra": {},
+        "level": 1,
+        "number": 69,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "699057150063804488": {
+        "extra": {},
+        "level": 1,
+        "number": 66,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "699718396245180469": {
+        "extra": {},
+        "level": 1,
+        "number": 53,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "700538178335015006": {
+        "extra": {},
+        "level": 1,
+        "number": 4,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "701201030838222898": {
+        "extra": {},
+        "level": 1,
+        "number": 54,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "705824424540110939": {
+        "extra": {},
+        "level": 1,
+        "number": 13,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "705908463959801876": {
+        "extra": {},
+        "level": 1,
+        "number": 44,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "714969736303083571": {
+        "extra": {},
+        "level": 1,
+        "number": 1,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "718870520396906596": {
+        "extra": {},
+        "level": 1,
+        "number": 48,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "722470733816529007": {
+        "extra": {},
+        "level": 1,
+        "number": 91,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "735373639008125031": {
+        "extra": {},
+        "level": 1,
+        "number": 46,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "737124229220270090": {
+        "extra": {},
+        "level": 1,
+        "number": 46,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "738429323530338376": {
+        "extra": {},
+        "level": 1,
+        "number": 71,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "739570274206482584": {
+        "extra": {},
+        "level": 1,
+        "number": 55,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "743089500212822056": {
+        "extra": {},
+        "level": 1,
+        "number": 72,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "746538511661793432": {
+        "extra": {},
+        "level": 1,
+        "number": 23,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "747897839102722059": {
+        "extra": {},
+        "level": 1,
+        "number": 79,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "750480103825211533": {
+        "extra": {},
+        "level": 1,
+        "number": 36,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "750919273316089948": {
+        "extra": {},
+        "level": 1,
+        "number": 18,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "755813588253540463": {
+        "extra": {},
+        "level": 1,
+        "number": 57,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "759317465167036419": {
+        "extra": {},
+        "level": 1,
+        "number": 9,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "836030277791907891": {
+        "extra": {},
+        "level": 1,
+        "number": 52,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "849805593363087360": {
+        "extra": {},
+        "level": 1,
+        "number": 60,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "850536669958373386": {
+        "extra": {},
+        "level": 1,
+        "number": 31,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "864477406458413096": {
+        "extra": {},
+        "level": 1,
+        "number": 17,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "877303726044479518": {
+        "extra": {},
+        "level": 1,
+        "number": 20,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "904833549679611915": {
+        "extra": {},
+        "level": 1,
+        "number": 24,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "923529398425096193": {
+        "extra": {},
+        "level": 1,
+        "number": 39,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "931005327896350790": {
+        "extra": {},
+        "level": 1,
+        "number": 33,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "993316606837010542": {
+        "extra": {},
+        "level": 1,
+        "number": 9,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "996993682815332372": {
+        "extra": {},
+        "level": 1,
+        "number": 49,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    },
+    "997989074428231781": {
+        "extra": {},
+        "level": 1,
+        "number": 53,
+        "nxtlvl": 200,
+        "ranking": 0,
+        "xp": 0,
+        "xpcooldown": 0
+    }
+}

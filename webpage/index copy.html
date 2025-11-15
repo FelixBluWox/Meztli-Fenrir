@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="webpage/CSS/estilos.css">
+	<link rel="stylesheet" type="text/css" href="webpage/CSS/estilosMenu.css">
+	<title>Document</title>
+</head>
+<body>
+	<div id="contenedor">
+	<header id="header">
+		<table>
+			<tr>
+			<td><img id="logo" src="webpage/IMG/glweblogo.png" alt="logo"></td>
+			<td id = "maintext"><h1>Ghost Land</h1>
+				<h2>ghostland.vultam.host</h2>
+
+			</td>
+			</tr>
+		</table>
+	</header>
+
+    <script>
+        function panel(){
+            window.location.href = 'controlpanel';
+            return false;
+        }
+        function estadis(){
+            window.location.href = 'players';
+            return false;
+        }
+        function players(){
+            window.location.href = 'statistics';
+            return false;
+        }
+        function botstate(){
+            window.location.href = 'discordbot';
+            return false;
+        }
+    </script>
+
+	<nav id="nav">
+		<ul>
+			<li><input type="button" value="Panel de control" onclick="panel();"></li>
+            
+			<li><input type="button" value="Jugadores" onclick="players();"></li>
+
+            <li><input type="button" value="Estadisticas" onclick="estadis();"></li>
+
+            <li><input type="button" value="bot" onclick="botstate();"></li>
+		</ul>
+	</nav>
+	
+	<section id="mainspace">
+        <img id="wipimg" src="webpage/IMG/wip.png" alt="404img" align="left">
+	</section>
+	
+
+	</div>
+
+    
+</body>
+</body>
+<footer id="foot">
+    <table><tr>
+        <td>
+            <img id="futimg" src="webpage/IMG/woxdev logo.png" alt="404img">
+        </td>
+        <td>
+            <img id="futimg" src="webpage/IMG/glpng.png" alt="404img">
+        </td>
+        <td>
+            <img id="futimg" src="webpage/IMG/jtoslogo.png" alt="404img">
+        </td>
+        <td id="txtfut">
+            <h5>made by Felix_Wox</h5>
+            <h5>and Sicsacsito</h5>
+            <h5>Work In Progress</h5>
+            <h5>(c) 2022</h5>
+        </td>
+    </table></tr>
+		
+</footer>
+</html>

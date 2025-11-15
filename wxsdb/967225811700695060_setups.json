@@ -1,0 +1,34 @@
+{
+    "chs": {},
+    "documents": {},
+    "modmins": {
+        "312807184927031306": 7
+    },
+    "setups": {
+        "DevFenrir": {
+            "config": {
+                "leveling": false,
+                "ttvnotif": false
+            },
+            "guild_id": 967225811700695060,
+            "prefix": "d."
+        },
+        "Fenrir": {
+            "config": {
+                "leveling": false,
+                "ttvnotif": false
+            },
+            "guild_id": 967225811700695060,
+            "prefix": "f."
+        },
+        "Marcelo": {
+            "config": {
+                "leveling": false,
+                "ttvnotif": false
+            },
+            "guild_id": 967225811700695060,
+            "prefix": "m."
+        }
+    },
+    "streamers": {}
+}
