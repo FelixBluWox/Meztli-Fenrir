@@ -1,7 +1,11 @@
 environ.json
 secret.env
 bot.py
-test
+parameters.txt
+database.json
+cmdatribs.json
+slashatribs.json
+
 
 *temp*
 *test*
@@ -9,5 +13,7 @@ test
 *.env
 *.log
 *.zip
+*.md
+!readme.md
 
 wxsdb/
