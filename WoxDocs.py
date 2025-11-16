@@ -213,8 +213,8 @@ async def render_passport(ctx=None, member=None, mcname=None):
     draw.text((44, 760 - code.y - 44), code.text, "#212930", font=code.font)
     draw.text((44, 760 - code.y), code2.text, "#212930", font=code.font)
 
-    await dcuser.avatar.save(fp = "./images/tempimage.webp")
-    avatar = Image.open("./images/tempimage.webp")
+    await dcuser.avatar.save(fp = "./images/temp_image.webp")
+    avatar = Image.open("./images/temp_image.webp")
     avatar = avatar.convert("RGBA")
     avatar = avatar.resize((250, 250))
 
@@ -238,8 +238,8 @@ async def render_passport(ctx=None, member=None, mcname=None):
     passicon = passicon.resize((120, 60))
     canvas.paste(passicon, (1200 - 40 - 120,40), passicon)
     
-    canvas.save('./passportbg.png')
-    return './passportbg.png'
+    canvas.save('./passportbg_temp.png')
+    return './passportbg_temp.png'
 
 async def rank_banner(member):
     dcuser, guild, mcnick = get_user(member=member)
@@ -284,10 +284,10 @@ async def rank_banner(member):
     level = font_str(f"{user_info['level']}", ImageFont.truetype("./images/Comfortaa-Bold.ttf", 96))
     pos_rank = font_str(f"#{user_info['ranking']}", ImageFont.truetype("./images/Comfortaa-Bold.ttf", 96))
 
-    await dcuser.avatar.save(fp = "./images/tempimage.webp")
+    await dcuser.avatar.save(fp = "./images/temp_image.webp")
     template = Image.open("./images/gltemplatebg_old.png")
     mask = Image.open("./images/cicularmask_old.png").convert('L')
-    pfp = Image.open("./images/tempimage.webp").convert("RGBA")
+    pfp = Image.open("./images/temp_image.webp").convert("RGBA")
     symbol = Image.open(f"./images/{cargos.get(user_info['extra']['passport']['cargo'], 'rank-1')}.png")
     finalpfp = ImageOps.fit(pfp, (mask.size), centering=(0.5, 0.5))
     finalpfp.putalpha(mask)
@@ -345,8 +345,8 @@ async def rank_banner(member):
     vertical = 290.5 - (exp.y /2)
     draw.text((horizontal, vertical), exp.text, white, font=exp.font)
 
-    template.save('./images/tempimage.png')
-    return './images/tempimage.png'
+    template.save('./images/temp_image.png')
+    return './images/temp_image.png'
 
 
 class Continue_Button(Button):
