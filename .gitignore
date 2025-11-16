@@ -10,10 +10,13 @@ slashatribs.json
 *temp*
 *test*
 
+!*template*
+
 *.env
 *.log
 *.zip
 *.md
+
 !readme.md
 
 wxsdb/
