@@ -101,8 +101,8 @@ def get_player_skin(guild, username):
 
         db.save()
     
-    urlretrieve(url, "Downloads/Meztli_Fenrir/images/skin_temp.png")
-    return 'Downloads/Meztli_Fenrir/images/skin_temp.png'
+    urlretrieve(url, "./images/skin_temp.png")
+    return './images/skin_temp.png'
 
 async def render_passport(ctx=None, member=None, mcname=None):
     dcuser, guild, mcnick = get_user(ctx=ctx, member=member, mcname=mcname)
@@ -129,45 +129,44 @@ async def render_passport(ctx=None, member=None, mcname=None):
         num.insert(0, '0')
     num = ''.join(num)
 
-    rolcity_txt = font_str("ROLCITY", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Antone.ttf", 56))
+    rolcity_txt = font_str("ROLCITY", ImageFont.truetype("./images/Antone.ttf", 56))
 
-    pasaporte_txt = font_str("PASAPORTE", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 24))
-    tipo_txt = font_str("TIPO:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
-    pais_txt = font_str("PAIS:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
-    rc_txt = font_str("RC", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
-    dcid_txt = font_str("DCID:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
-    discord_txt = font_str("DISCORD:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
-    alias_txt = font_str("ALIAS:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
-    mcname_txt = font_str("MINECRAFT:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
-    edad_txt = font_str("EDAD:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
-    profesion_txt = font_str("PROFESION:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
-    nacimiento_txt = font_str("FECHA DE NACIMIENTO:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
-    expedicion_txt = font_str("FECHA DE EXPEDICION:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
-    sexo_txt = font_str("SEXO:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
-    ciudad_txt = font_str("CIUDAD DE ORIGEN:", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Segoe UI.ttf", 19))
+    pasaporte_txt = font_str("PASAPORTE", ImageFont.truetype("./images/Segoe UI.ttf", 24))
+    tipo_txt = font_str("TIPO:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
+    pais_txt = font_str("PAIS:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
+    rc_txt = font_str("RC", ImageFont.truetype("./images/Instruction.otf", 44))
+    dcid_txt = font_str("DCID:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
+    discord_txt = font_str("DISCORD:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
+    alias_txt = font_str("ALIAS:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
+    mcname_txt = font_str("MINECRAFT:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
+    edad_txt = font_str("EDAD:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
+    profesion_txt = font_str("PROFESION:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
+    nacimiento_txt = font_str("FECHA DE NACIMIENTO:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
+    expedicion_txt = font_str("FECHA DE EXPEDICION:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
+    sexo_txt = font_str("SEXO:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
+    ciudad_txt = font_str("CIUDAD DE ORIGEN:", ImageFont.truetype("./images/Segoe UI.ttf", 19))
 
 
+    issuer = font_str(f"ALCALDIA DE {db['bots'][str(guild.id)]['extra']['cities'][db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['issuer']].upper()}", ImageFont.truetype("./images/Antone.ttf", 44))
 
-    issuer = font_str(f"ALCALDIA DE {db['bots'][str(guild.id)]['extra']['cities'][db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['issuer']].upper()}", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Antone.TTF", 44))
-
-    passtype = font_str(db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['type'], ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
-    userid = font_str(str(dcuser.id), ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
-    username = font_str(dcuser.name, ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
-    userdisc = font_str('#' + str(dcuser.discriminator), ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
-    mcname = font_str(mcnick, ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
-    age = font_str(str(relativedelta(datetime.now(), datetime(*db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['birth'])).years), ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
-    profession = font_str(db['bots'][str(guild.id)]['extra']['professions'][db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['profession'][0]].upper(), ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
+    passtype = font_str(db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['type'], ImageFont.truetype("./images/Instruction.otf", 44))
+    userid = font_str(str(dcuser.id), ImageFont.truetype("./images/Instruction.otf", 44))
+    username = font_str(dcuser.name, ImageFont.truetype("./images/Instruction.otf", 44))
+    userdisc = font_str('#' + str(dcuser.discriminator), ImageFont.truetype("./images/Instruction.otf", 44))
+    mcname = font_str(mcnick, ImageFont.truetype("./images/Instruction.otf", 44))
+    age = font_str(str(relativedelta(datetime.now(), datetime(*db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['birth'])).years), ImageFont.truetype("./images/Instruction.otf", 44))
+    profession = font_str(db['bots'][str(guild.id)]['extra']['professions'][db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['profession'][0]].upper(), ImageFont.truetype("./images/Instruction.otf", 44))
     birth = db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['birth']
-    birth = font_str(f"{birth[2]}/{birth[1]}/{birth[0]}", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
+    birth = font_str(f"{birth[2]}/{birth[1]}/{birth[0]}", ImageFont.truetype("./images/Instruction.otf", 44))
     issued = db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['issued']
-    issued = font_str(f"{issued[2]}/{issued[1]}/{issued[0]}", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
-    gender = font_str(db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['gender'], ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
-    city = font_str(db['bots'][str(guild.id)]['extra']['cities'][db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['issuer']].upper(), ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
+    issued = font_str(f"{issued[2]}/{issued[1]}/{issued[0]}", ImageFont.truetype("./images/Instruction.otf", 44))
+    gender = font_str(db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['gender'], ImageFont.truetype("./images/Instruction.otf", 44))
+    city = font_str(db['bots'][str(guild.id)]['extra']['cities'][db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['issuer']].upper(), ImageFont.truetype("./images/Instruction.otf", 44))
 
-    code = font_str(db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['code'][0], ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
-    code2 = font_str(db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['code'][1], ImageFont.truetype("Downloads/Meztli_Fenrir/images/Instruction.otf", 44))
+    code = font_str(db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['code'][0], ImageFont.truetype("./images/Instruction.otf", 44))
+    code2 = font_str(db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['code'][1], ImageFont.truetype("./images/Instruction.otf", 44))
 
-    canvas = Image.open("Downloads/Meztli_Fenrir/images/passportbg.png")
+    canvas = Image.open("./images/passportbg.png")
     draw = ImageDraw.Draw(canvas)
 
     draw.rounded_rectangle((0, 0, 1200, 800), outline=type_colors[db['bots'][str(guild.id)]['memberbase'][str(dcuser.id)]['extra']['passport']['type']],width=20, radius=20)
@@ -214,8 +213,8 @@ async def render_passport(ctx=None, member=None, mcname=None):
     draw.text((44, 760 - code.y - 44), code.text, "#212930", font=code.font)
     draw.text((44, 760 - code.y), code2.text, "#212930", font=code.font)
 
-    await dcuser.avatar.save(fp = "Downloads/Meztli_Fenrir/images/tempimage.webp")
-    avatar = Image.open("Downloads/Meztli_Fenrir/images/tempimage.webp")
+    await dcuser.avatar.save(fp = "./images/tempimage.webp")
+    avatar = Image.open("./images/tempimage.webp")
     avatar = avatar.convert("RGBA")
     avatar = avatar.resize((250, 250))
 
@@ -227,7 +226,7 @@ async def render_passport(ctx=None, member=None, mcname=None):
 
     canvas.paste(skin_img, (40, 392), skin_img)
 
-    tag = font_str(f"{num}-{uuid[:4]}-{str(dcuser.id)[-4:]}", ImageFont.truetype("Downloads/Meztli_Fenrir/images/LED Dot-Matrix.ttf", 70))
+    tag = font_str(f"{num}-{uuid[:4]}-{str(dcuser.id)[-4:]}", ImageFont.truetype("./images/LED Dot-Matrix.ttf", 70))
     tag_img = Image.new("RGBA", (tag.x, tag.y), (255,255,255,0))
     tag_draw = ImageDraw.Draw(tag_img)
     tag_draw.text((0,0), tag.text,font=tag.font, fill=(0, 0, 0, 92))
@@ -235,7 +234,7 @@ async def render_passport(ctx=None, member=None, mcname=None):
 
     canvas.paste(tag_img, (1088,105), tag_img)
     
-    passicon = Image.open("Downloads/Meztli_Fenrir/images/passport_icon.png")
+    passicon = Image.open("./images/passport_icon.png")
     passicon = passicon.resize((120, 60))
     canvas.paste(passicon, (1200 - 40 - 120,40), passicon)
     
@@ -266,42 +265,42 @@ async def rank_banner(member):
         'Presidente':'rank12'
     }
             
-    rank = font_str(user_info['extra']['passport']['cargo'], ImageFont.truetype("Downloads/Meztli_Fenrir/images/Comfortaa-Bold.ttf", 30))
-    name = font_str(dcuser.name, ImageFont.truetype("Downloads/Meztli_Fenrir/images/Comfortaa-Regular.ttf", 30))
-    nick = font_str((dcuser.nick if dcuser.nick else dcuser.name), ImageFont.truetype("Downloads/Meztli_Fenrir/images/Comfortaa-Bold.ttf", 52))
-    disc = font_str(f'#{dcuser.discriminator}', ImageFont.truetype("Downloads/Meztli_Fenrir/images/Comfortaa-Light.ttf", 28))
-    smal = lambda x: font_str(x, ImageFont.truetype("Downloads/Meztli_Fenrir/images/Comfortaa-Regular.ttf", 26))
+    rank = font_str(user_info['extra']['passport']['cargo'], ImageFont.truetype("./images/Comfortaa-Bold.ttf", 30))
+    name = font_str(dcuser.name, ImageFont.truetype("./images/Comfortaa-Regular.ttf", 30))
+    nick = font_str((dcuser.nick if dcuser.nick else dcuser.name), ImageFont.truetype("./images/Comfortaa-Bold.ttf", 52))
+    disc = font_str(f'#{dcuser.discriminator}', ImageFont.truetype("./images/Comfortaa-Light.ttf", 28))
+    smal = lambda x: font_str(x, ImageFont.truetype("./images/Comfortaa-Regular.ttf", 26))
 
     dc_str = smal('DC:')
     mc_str = smal('MC:')
 
     lvl = user_info['level']
-    mcname = font_str(user_info['extra']['passport']['mc'], ImageFont.truetype("Downloads/Meztli_Fenrir/images/Comfortaa-Bold.ttf", 56))
+    mcname = font_str(user_info['extra']['passport']['mc'], ImageFont.truetype("./images/Comfortaa-Bold.ttf", 56))
     xp = user_info['xp']
     nextlvl = user_info['nxtlvl']
-    exp = font_str(f'{get_exp(xp)}/{get_exp(nextlvl)} xp', ImageFont.truetype("Downloads/Meztli_Fenrir/images/Comfortaa-Regular.ttf", 32))
-    lvl_str = font_str('nivel:', ImageFont.truetype("Downloads/Meztli_Fenrir/images/Comfortaa-Regular.ttf", 32))
-    pos_str = font_str('rank:', ImageFont.truetype("Downloads/Meztli_Fenrir/images/Comfortaa-Regular.ttf", 32))
-    level = font_str(f"{user_info['level']}", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Comfortaa-Bold.ttf", 96))
-    pos_rank = font_str(f"#{user_info['ranking']}", ImageFont.truetype("Downloads/Meztli_Fenrir/images/Comfortaa-Bold.ttf", 96))
+    exp = font_str(f'{get_exp(xp)}/{get_exp(nextlvl)} xp', ImageFont.truetype("./images/Comfortaa-Regular.ttf", 32))
+    lvl_str = font_str('nivel:', ImageFont.truetype("./images/Comfortaa-Regular.ttf", 32))
+    pos_str = font_str('rank:', ImageFont.truetype("./images/Comfortaa-Regular.ttf", 32))
+    level = font_str(f"{user_info['level']}", ImageFont.truetype("./images/Comfortaa-Bold.ttf", 96))
+    pos_rank = font_str(f"#{user_info['ranking']}", ImageFont.truetype("./images/Comfortaa-Bold.ttf", 96))
 
-    await dcuser.avatar.save(fp = "Downloads/Meztli_Fenrir/images/tempimage.webp")
-    template = Image.open("Downloads/Meztli_Fenrir/images/gltemplatebg_old.png")
-    mask = Image.open("Downloads/Meztli_Fenrir/images/cicularmask_old.png").convert('L')
-    pfp = Image.open("Downloads/Meztli_Fenrir/images/tempimage.webp").convert("RGBA")
-    symbol = Image.open(f"Downloads/Meztli_Fenrir/images/{cargos.get(user_info['extra']['passport']['cargo'], 'rank-1')}.png")
+    await dcuser.avatar.save(fp = "./images/tempimage.webp")
+    template = Image.open("./images/gltemplatebg_old.png")
+    mask = Image.open("./images/cicularmask_old.png").convert('L')
+    pfp = Image.open("./images/tempimage.webp").convert("RGBA")
+    symbol = Image.open(f"./images/{cargos.get(user_info['extra']['passport']['cargo'], 'rank-1')}.png")
     finalpfp = ImageOps.fit(pfp, (mask.size), centering=(0.5, 0.5))
     finalpfp.putalpha(mask)
     urs_color = ImageColor.getrgb(str(dcuser.color))
     decal = Image.new('RGBA', (1050, 330), urs_color)
-    decalmask = Image.open("Downloads/Meztli_Fenrir/images/templatedecalmask_old.png").convert('L')
+    decalmask = Image.open("./images/templatedecalmask_old.png").convert('L')
     decal.putalpha(decalmask)
     bar = int((534 / nextlvl) * xp)
     xp_bar_placeholder = Image.new('RGBA', (534, 49), (45, 56, 50))
     xp_bar_full = Image.new('RGBA', (bar, 49), urs_color)
     xp_bar_full = ImageChops.invert(xp_bar_full)
     xp_bar_placeholder.paste(xp_bar_full, (0,0))
-    xp_bar_mask = Image.open("Downloads/Meztli_Fenrir/images/xpbar_old.png").convert('L')
+    xp_bar_mask = Image.open("./images/xpbar_old.png").convert('L')
     xp_bar_placeholder.putalpha(xp_bar_mask)
 
     template = Image.alpha_composite(template, decal)
@@ -346,8 +345,8 @@ async def rank_banner(member):
     vertical = 290.5 - (exp.y /2)
     draw.text((horizontal, vertical), exp.text, white, font=exp.font)
 
-    template.save('Downloads/Meztli_Fenrir/images/tempimage.png')
-    return 'Downloads/Meztli_Fenrir/images/tempimage.png'
+    template.save('./images/tempimage.png')
+    return './images/tempimage.png'
 
 
 class Continue_Button(Button):
