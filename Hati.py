@@ -125,8 +125,8 @@ class font_str():
     def __init__(self, text:str, font:ImageFont.FreeTypeFont) -> None:
         self.text = anti_utf8(text)
         self.font = font
-        self.x = font.getsize(self.text)[0]
-        self.y = font.getsize(self.text)[1]
+        self.x = font.getbbox(self.text)[2]
+        self.y = font.getbbox(self.text)[3]
         
         
     def __repr__(self) -> str:
