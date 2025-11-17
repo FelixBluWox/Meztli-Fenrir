@@ -1,3 +1,4 @@
+#              Felix Blu Wox (c) All Rights Reserved 2023
 from flask import Flask, request, render_template
 from discord.ext.commands import *
 from wox_sdb import db

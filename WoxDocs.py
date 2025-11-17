@@ -1,3 +1,5 @@
+#                        Felix Blu Wox (c) 2022
+#  This file is part of the WoxFenrir framework for creating Discord bots
 import discord
 from wox_sdb import db
 from Chia import wreply, get_mention, user_auth, get_user_auth, get_author, on_guild

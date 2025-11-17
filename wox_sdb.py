@@ -1,3 +1,4 @@
+#              Felix Blu Wox (c) All Rights Reserved 2023
 import codecs, json
 from Gaia import Wox_log, error_form
 from colorama import Fore
@@ -10,11 +11,11 @@ class QuasiDatabase():
     
     def __init__(self) -> None:
         self.__name__ = 'SDB'
-        wdb_log.info(f'iniciando [{self.__name__}]...')
+        wdb_log.info(f'iniciando [{self.__name__}]')
         self.reload()
     
     def reload(self):
-        wdb_log.info(f'Loading data...')
+        wdb_log.info(f'Loading data')
         try:
             with codecs.open('./wxsdb/gnrl_setups.json', 'r', encoding='utf8') as f:
                 self.data = json.loads(f.read())
@@ -63,7 +64,7 @@ class QuasiDatabase():
             return None
     
     def save(self):
-        wdb_log.info(f'Saving data...')
+        wdb_log.info(f'Saving data')
         try:
             self.bots = list(self.data['bots'])
             with codecs.open('./wxsdb/gnrl_setups.json', 'w', encoding='utf8') as f:
@@ -101,6 +102,11 @@ class QuasiDatabase():
         with codecs.open('./database.json', 'w', encoding='utf8') as f:
             json.dump(self.data, f, ensure_ascii=False, indent=4, sort_keys=True)
             f.close()
+
+
+
+
+
 
 db = QuasiDatabase()
 wdb_log.info('ready')

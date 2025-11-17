@@ -1,3 +1,5 @@
+#                        Felix Blu Wox (c) 2023
+#  This file is part of the WoxFenrir framework for creating Discord bots
 from flask import Flask, request, render_template, jsonify, redirect, url_for
 from discord.ext.commands import *
 from wox_sdb import db
