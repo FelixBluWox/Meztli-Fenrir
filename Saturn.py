@@ -28,7 +28,7 @@ from Chandra import web_cog
 import argparse
 import time
 from colorama import Fore
-from WoxDocs import RolCity, Dynamite, WoxE621
+from WoxDocs import RolCity, Dynamite #WoxE621
 from gtts import gTTS
 
 parser = argparse.ArgumentParser()
@@ -425,7 +425,7 @@ class Fenrir(WoxBot):
 
         self.add_cog(RolCity(self))
         self.add_cog(Dynamite(self))
-        self.add_cog(WoxE621(self))
+        #self.add_cog(WoxE621(self))
 
         self.lavalink_nodes = [
             {"host": "127.0.0.1", "port": 2333, "password": "plumonenlacola"},
@@ -438,7 +438,7 @@ class Fenrir(WoxBot):
             "client_secret": spotify_secret,
         }
         self.log.info('Loading dismusic extension')
-        self.load_extension("dismusic")
+        #self.load_extension("dismusic")
 
     async def function_after_ready(self):
         txt_modul = '\n        - '.join(map(str, modules))
